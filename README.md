@@ -1,30 +1,7 @@
-# Data-Week-4
-python
-<br>
 # E-Commerce Sales Analysis
 
-## 📌 Project Description
-This project analyzes an e-commerce sales dataset using Python. It performs data cleaning, exploratory data analysis (EDA), and data visualization to identify sales trends, category-wise performance, and business insights.
-
----
-
-## 🚀 Features
-- Load sales data from a CSV file
-- Data cleaning (remove duplicates and missing values)
-- Summary statistics
-- Total Sales and Total Profit calculation
-- Category-wise Sales Analysis
-- Monthly Sales Analysis
-- Profit Analysis
-- Data Visualization using Matplotlib
-- Business Insights
-
----
-
-## 🛠 Technologies Used
-- Python
-- Pandas
-- Matplotlib
+## 📖 Project Overview
+This project analyzes an e-commerce sales dataset using Python, Pandas, and Matplotlib. The goal is to understand sales performance, identify the best-selling products, compare regional sales, and visualize daily sales trends.
 
 ---
 
@@ -33,59 +10,95 @@ This project analyzes an e-commerce sales dataset using Python. It performs data
 ```
 Ecommerce-Sales-Analysis/
 │
-├── data/
-│   └── sales_data.csv
-│
-├── visualizations/
-│   ├── bar_chart.png
-│   ├── pie_chart.png
-│   └── line_chart.png
-│
 ├── main.py
+├── sales_data.csv
+├── README.md
 ├── report.md
 ├── requirements.txt
-└── README.md
+│
+└── visualizations/
+    ├── product_sales.png
+    ├── region_sales.png
+    └── daily_sales.png
 ```
 
 ---
 
-## 📊 Dataset Columns
-- Order_ID
-- Category
-- Sales
-- Profit
-- Month
+## 🛠 Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
 
 ---
 
-## 📈 Visualizations
+## 📊 Dataset Columns
+
+- Date
+- Product
+- Quantity
+- Price
+- Customer_ID
+- Region
+- Total_Sales
+
+---
+
+## 📈 Analysis Performed
+
+- Data Loading
+- Data Cleaning
+- Summary Statistics
+- Total Sales Calculation
+- Average Sales
+- Highest & Lowest Sales
+- Product-wise Sales Analysis
+- Region-wise Sales Analysis
+- Daily Sales Trend Analysis
+
+---
+
+## 📉 Visualizations
+
 The project generates the following charts:
-- Bar Chart – Sales by Category
-- Pie Chart – Sales Distribution
-- Line Chart – Monthly Sales Trend
+
+- Product Wise Sales (Bar Chart)
+- Region Wise Sales (Pie Chart)
+- Daily Sales Trend (Line Chart)
 
 ---
 
 ## ▶️ How to Run
 
-1. Install the required libraries:
-```
+1. Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-2. Run the project:
-```
+2. Run the project
+
+```bash
 python main.py
 ```
 
 ---
 
-## 📋 Sample Output
-- Total Sales
-- Total Profit
-- Average Sales
-- Highest Selling Category
-- Monthly Sales Report
-- Charts saved in the `visualizations` folder
+## 📷 Output
 
+The generated charts are saved inside the **visualizations/** folder.
+
+- product_sales.png
+- region_sales.png
+- daily_sales.png
+
+---
+
+## 📌 Key Insights
+
+- Identified the best-selling product.
+- Compared sales across different regions.
+- Observed daily sales trends.
+- Calculated total and average sales.
+- Generated visual reports for better understanding.
 
